@@ -1,16 +1,6 @@
-cd ~
-cat > firebase.json << 'EOF'
 {
-  "database": {
-    "rules": "database.rules.json"
-  },
   "hosting": {
     "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
     "headers": [
       {
         "source": "/.well-known/apple-app-site-association",
@@ -28,4 +18,3 @@ cat > firebase.json << 'EOF'
     ]
   }
 }
-EOF
