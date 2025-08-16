@@ -1,0 +1,17 @@
+# make the folders
+mkdir -p ~/public/.well-known
+
+# create the AASA file (no extension)
+cat > ~/public/.well-known/apple-app-site-association << 'EOF'
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["PU36CDM2T5.com.blamm.trench"],
+        "paths": [ "/track/*" ]
+      }
+    ]
+  }
+}
+EOF
