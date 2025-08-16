@@ -1,3 +1,6 @@
+cd ~
+mkdir -p public/.well-known
+cat > public/.well-known/apple-app-site-association << 'EOF'
 {
   "applinks": {
     "apps": [],
@@ -9,3 +12,4 @@
     ]
   }
 }
+EOF
