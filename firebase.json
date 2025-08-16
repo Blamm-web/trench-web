@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "public": "public",
+    "headers": [
+      {
+        "source": "/.well-known/apple-app-site-association",
+        "headers": [
+          { "key": "Content-Type", "value": "application/json" }
+        ]
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/track/**",
+        "destination": "https://apps.apple.com/app/id6749568064",
+        "type": 302
+      }
+    ]
+  }
+}
