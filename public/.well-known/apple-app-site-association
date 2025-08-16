@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["PU36CDM2T5.com.blamm.trench"],
+        "paths": [ "/track/*" ]
+      }
+    ]
+  }
+}
